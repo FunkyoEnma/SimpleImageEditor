@@ -1,8 +1,9 @@
 {
   "Hello world!": "Hola mundo!",
   "hi": "hola",
-  "Squared": "Cuadrado",
-  "Rounded": "Redondo",
-  "Portrait": "Vertical",
-  "Landscape": "Horizontal"
+  "ImageTypes.Squared": "Cuadrado",
+  "ImageTypes.Rounded": "Redondo",
+  "ImageTypes.Portrait": "Vertical",
+  "ImageTypes.Landscape": "Horizontal",
+  "SelectorTexts.load": "Cargar tipos de imagen"
 }
