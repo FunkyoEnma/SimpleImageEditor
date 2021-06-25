@@ -1,4 +1,4 @@
-from PyQt6.QtCore import Qt, QSize
+from PyQt6.QtCore import QSize
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtWidgets import QLabel, QCheckBox, QWidget, QPushButton
 from plate import Plate
@@ -44,7 +44,6 @@ class ImageTypeSel(QLabel):
         self.__center.move(self.geometry().center() - self.__center.geometry().center())
         self.__center.setObjectName("myParentWidget")
         self.__center.setStyleSheet("QWidget#myParentWidget {border: 1px groove gray;}")
-
 
     def childMaxSize(self, parent: QWidget):
 
