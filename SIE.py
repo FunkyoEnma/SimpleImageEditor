@@ -35,6 +35,11 @@ class MainUi(QMainWindow):
     def load_editor(self):
         print(self.imageTypes)
 
+        self.__selector = Ui.Selector(self)
+        self.__selector.move((int(self.size().width() / 2)) - self.__selector.geometry().center().x(), 20)
+        self.__selector.loadTypes(self.imageTypes)
+        self.__selector.show()
+
 
 app = QApplication(args.args)
 _ventana = MainUi(args.ImageInput)
