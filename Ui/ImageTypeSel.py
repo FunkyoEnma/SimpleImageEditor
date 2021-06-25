@@ -101,7 +101,7 @@ class SelectorWithImage(QLabel):
         self.check.adjustSize()
         self.__text = QLabel(self)
         self.__imageType = imageType
-        self.__text.setText(_(self.__imageType.name))
+        self.__text.setText(_(self.__imageType.__str__()))
         self.__text.setContentsMargins(10, -10, 10, 10)
         self.__text.adjustSize()
         self.__text.move(self.check.geometry().bottomLeft().x(), 33)
